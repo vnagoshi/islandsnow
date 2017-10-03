@@ -33,3 +33,12 @@
 .red-hover:hover {
   color: rgb(164, 68, 68);
 }
+
+.footer {
+  padding-top: 10px;
+  background-color: rgb(41, 41, 41);
+}
+
+.white {
+  color: white;
+}
