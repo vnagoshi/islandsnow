@@ -23,3 +23,13 @@
   animation-name: toWhite;
   animation-duration: 1s;
 }
+
+.subitem {
+  background-color: rgb(245, 245, 245);
+}
+.subitem:hover {
+  background-color: rgb(245, 245, 245);
+}
+.red-hover:hover {
+  color: rgb(164, 68, 68);
+}
