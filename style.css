@@ -1,0 +1,25 @@
+
+#top-menu-bar{
+  background-color: rgb(245, 245, 245);
+  width: 100vw;
+}
+#top-menu {
+  background-color: rgb(245, 245, 245);
+  border: none;
+  box-shadow: none;
+}
+
+@keyframes toWhite {
+  from {color: black}
+  to {color: white}
+}
+.hover-to-white:hover {
+  color: white;
+  animation-name: toWhite;
+  animation-duration: 1s;
+}
+.hover-to-white:hover .to-white-child {
+  color: white;
+  animation-name: toWhite;
+  animation-duration: 1s;
+}
